@@ -1,0 +1,4 @@
+jdk:
+  - openjdk9
+install:
+  - ./loom mavenArtifact --release $VERSION
