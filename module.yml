@@ -1,0 +1,6 @@
+settings:
+  moduleName: java9jitpack
+  maven.groupAndArtifact: builders.loom.samples:java9loomjitpack
+plugins:
+  - maven
+
