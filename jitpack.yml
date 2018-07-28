@@ -1,6 +1,4 @@
 jdk:
   - openjdk9
-before_install:
-   - ./prepareEnvironment.sh
 install:
   - ./loom mavenArtifact --release 0.0.5
