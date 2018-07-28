@@ -3,4 +3,4 @@ jdk:
 before_install:
    - ./prepareEnvironment.sh
 install:
-  - loom mavenArtifact --release 0.0.5
+  - ./loom mavenArtifact --release 0.0.5
