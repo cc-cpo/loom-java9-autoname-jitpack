@@ -1,4 +1,4 @@
 jdk:
   - openjdk9
 install:
-  - ./loom mavenArtifact --release $VERSION
+  - loom mavenArtifact --release 0.0.5
